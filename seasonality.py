@@ -116,7 +116,7 @@ for c in p_value_df.columns:
 # Plot the differently trimmed monthly means
 import matplotlib.pyplot as plt
 plt.figure(figsize=(12,7.4))
-plt.title('Monthly means for progressively trimmed data series')
+plt.title('Monthly average moves for progressively trimmed data series')
 plt.plot(np.ones(len(trimmed_means_df.index)+1) * 0, 'k--')
 plt.plot(np.ones(len(trimmed_means_df.index)+1) * median, 'r+', label='Overall Median')
 for i in range(len(trimmed_means_df.columns)):
