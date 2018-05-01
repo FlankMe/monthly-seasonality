@@ -1,5 +1,5 @@
 # monthly-seasonality
-A rudimentary template for detecting monthly seasonality in (financial) time series  
+A template for detecting monthly seasonality in (financial) time series  
 
-It is also the supporting code of my blog post  
+Please refer to my blog post for more
 http://swapsball.net/testing-for-seasonality
